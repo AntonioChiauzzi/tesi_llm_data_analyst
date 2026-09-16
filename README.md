@@ -11,9 +11,11 @@ Il repository raccoglie i materiali utilizzati durante la sperimentazione descri
 Contiene i materiali relativi al dataset utilizzato nel primo caso di studio.
 
 La cartella comprende:
-- i file di dati utilizzati come origine del dataset;
-- lo script Python utilizzato per unirli e prepararli;
-- il dataset finale utilizzato nella sperimentazione;
+
+- i file di dati originali nella cartella `data/raw/`;
+- il file `classi_laurea.csv` nella cartella `data/lookup/`;
+- lo script Python `merge_iscritti.py` utilizzato per preparare il dataset;
+- il dataset finale `iscritticorsi20102025.csv` nella cartella `data/processed/`;
 - il file `README.md` con le informazioni relative ai dati e alle operazioni effettuate.
 
 ### `risposte_ai/`
@@ -33,11 +35,11 @@ La sperimentazione è stata svolta utilizzando le seguenti configurazioni:
 
 | Strumento | Configurazione |
 |---|---|
-| Perplexity | Sonar |
+| Perplexity | Sonar 2 derivante da Llama 3.3 70B |
 | Microsoft Copilot | Automatico |
 | Claude | Sonnet 5, Medio |
 | Gemini | 3.6 Flash |
 
 ## Finalità
 
-Il repository ha lo scopo di rendere disponibili i materiali utilizzati nella sperimentazione e permettere di consultare le risposte complete degli strumenti.
+Il repository rende disponibili i materiali utilizzati durante la sperimentazione e permette di consultare le risposte complete degli strumenti.
